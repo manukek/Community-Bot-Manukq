@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const config = {
   token: process.env.TOKENBOT,
-  ownerId: process.env.USER,
+  ownerId: process.env.USERID,
   proposalsFile: 'proposals.json',
   maxImageSize: 5242880
 };
